@@ -12,9 +12,26 @@
 		38209F1F21313F1700E0806D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38209F1D21313F1700E0806D /* Main.storyboard */; };
 		38209F2121313F1700E0806D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38209F2021313F1700E0806D /* Assets.xcassets */; };
 		38209F2421313F1700E0806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38209F2221313F1700E0806D /* LaunchScreen.storyboard */; };
+		38209F2C2131402800E0806D /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38209F2B2131402800E0806D /* ObservableViewModel.swift */; };
+		38209F3721314D4500E0806D /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38209F3521314D4500E0806D /* ObservableViewController.swift */; };
+		38209F3C2131512200E0806D /* ObservableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38209F3B2131512200E0806D /* ObservableViewController.storyboard */; };
+		38C011C221318CDB0061ABE2 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C011C121318CDB0061ABE2 /* CoverView.swift */; };
+		38C011C621325C900061ABE2 /* CoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38C011C521318D0A0061ABE2 /* CoverView.xib */; };
+		38F7A64C213289B70024897B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A64B213289B70024897B /* ImageViewController.swift */; };
+		38F7A64E213289C10024897B /* Image.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F7A64D213289C10024897B /* Image.storyboard */; };
+		38F7A650213289CF0024897B /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A64F213289CF0024897B /* ImageViewModel.swift */; };
+		38F7A65221328A780024897B /* ImageUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A65121328A780024897B /* ImageUsecase.swift */; };
+		38F7A65421328A840024897B /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A65321328A840024897B /* ImageRepository.swift */; };
+		38F7A657213293DF0024897B /* ImageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A656213293DF0024897B /* ImageEntity.swift */; };
+		38F7A659213293F60024897B /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A658213293F60024897B /* ImageModel.swift */; };
+		38F7A65B2132941A0024897B /* ImageTranslater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A65A2132941A0024897B /* ImageTranslater.swift */; };
+		38F7A6612132B2D60024897B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A6602132B2D60024897B /* ApiClient.swift */; };
+		38F7A6632132B37F0024897B /* ImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F7A6622132B37F0024897B /* ImageDataStore.swift */; };
+		47DD5134030CE6438936D212 /* Pods_ios_rxswift_operators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2723D1E0AECAC783556F74CA /* Pods_ios_rxswift_operators.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2723D1E0AECAC783556F74CA /* Pods_ios_rxswift_operators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_rxswift_operators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38209F1621313F1700E0806D /* ios-rxswift-operators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-rxswift-operators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38209F1921313F1700E0806D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38209F1B21313F1700E0806D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,23 @@
 		38209F2021313F1700E0806D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38209F2321313F1700E0806D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38209F2521313F1700E0806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38209F2B2131402800E0806D /* ObservableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
+		38209F3521314D4500E0806D /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		38209F3B2131512200E0806D /* ObservableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ObservableViewController.storyboard; sourceTree = "<group>"; };
+		38C011C121318CDB0061ABE2 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		38C011C521318D0A0061ABE2 /* CoverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CoverView.xib; path = "/Users/mana/myproject/swiftNote/RxSwift/ios-rxswift-operators/ios-rxswift-operators/Observable/CoverView.xib"; sourceTree = "<absolute>"; };
+		38F7A64B213289B70024897B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		38F7A64D213289C10024897B /* Image.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Image.storyboard; sourceTree = "<group>"; };
+		38F7A64F213289CF0024897B /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		38F7A65121328A780024897B /* ImageUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUsecase.swift; sourceTree = "<group>"; };
+		38F7A65321328A840024897B /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		38F7A656213293DF0024897B /* ImageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEntity.swift; sourceTree = "<group>"; };
+		38F7A658213293F60024897B /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		38F7A65A2132941A0024897B /* ImageTranslater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTranslater.swift; sourceTree = "<group>"; };
+		38F7A6602132B2D60024897B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		38F7A6622132B37F0024897B /* ImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataStore.swift; sourceTree = "<group>"; };
+		C0BAEA4737178217040056A9 /* Pods-ios-rxswift-operators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rxswift-operators.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rxswift-operators/Pods-ios-rxswift-operators.release.xcconfig"; sourceTree = "<group>"; };
+		E7E74171C822DB3BE4940EDE /* Pods-ios-rxswift-operators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-rxswift-operators.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-rxswift-operators/Pods-ios-rxswift-operators.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47DD5134030CE6438936D212 /* Pods_ios_rxswift_operators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +75,8 @@
 			children = (
 				38209F1821313F1700E0806D /* ios-rxswift-operators */,
 				38209F1721313F1700E0806D /* Products */,
+				3E1500179B1C7C897850E69E /* Pods */,
+				97F54051D09787F6160D74D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,94 @@
 		38209F1821313F1700E0806D /* ios-rxswift-operators */ = {
 			isa = PBXGroup;
 			children = (
+				38F7A64A213289580024897B /* Image */,
+				38209F3A21314D7D00E0806D /* Main */,
+				38209F3921314D6000E0806D /* Observable */,
 				38209F1921313F1700E0806D /* AppDelegate.swift */,
-				38209F1B21313F1700E0806D /* ViewController.swift */,
-				38209F1D21313F1700E0806D /* Main.storyboard */,
 				38209F2021313F1700E0806D /* Assets.xcassets */,
 				38209F2221313F1700E0806D /* LaunchScreen.storyboard */,
 				38209F2521313F1700E0806D /* Info.plist */,
 			);
 			path = "ios-rxswift-operators";
+			sourceTree = "<group>";
+		};
+		38209F3921314D6000E0806D /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				38209F3521314D4500E0806D /* ObservableViewController.swift */,
+				38209F2B2131402800E0806D /* ObservableViewModel.swift */,
+				38209F3B2131512200E0806D /* ObservableViewController.storyboard */,
+				38C011C121318CDB0061ABE2 /* CoverView.swift */,
+				38C011C521318D0A0061ABE2 /* CoverView.xib */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		38209F3A21314D7D00E0806D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				38209F1B21313F1700E0806D /* ViewController.swift */,
+				38209F1D21313F1700E0806D /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		38F7A64A213289580024897B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				38F7A65E213294400024897B /* Data */,
+				38F7A65D213294390024897B /* Domain */,
+				38F7A65C2132942B0024897B /* Presentation */,
+				38F7A6602132B2D60024897B /* ApiClient.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		38F7A65C2132942B0024897B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				38F7A64F213289CF0024897B /* ImageViewModel.swift */,
+				38F7A64B213289B70024897B /* ImageViewController.swift */,
+				38F7A64D213289C10024897B /* Image.storyboard */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		38F7A65D213294390024897B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				38F7A65121328A780024897B /* ImageUsecase.swift */,
+				38F7A65A2132941A0024897B /* ImageTranslater.swift */,
+				38F7A658213293F60024897B /* ImageModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		38F7A65E213294400024897B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				38F7A656213293DF0024897B /* ImageEntity.swift */,
+				38F7A65321328A840024897B /* ImageRepository.swift */,
+				38F7A6622132B37F0024897B /* ImageDataStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3E1500179B1C7C897850E69E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E74171C822DB3BE4940EDE /* Pods-ios-rxswift-operators.debug.xcconfig */,
+				C0BAEA4737178217040056A9 /* Pods-ios-rxswift-operators.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97F54051D09787F6160D74D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2723D1E0AECAC783556F74CA /* Pods_ios_rxswift_operators.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38209F2821313F1700E0806D /* Build configuration list for PBXNativeTarget "ios-rxswift-operators" */;
 			buildPhases = (
+				7C8B8C6CB6CCA9FAAA75C208 /* [CP] Check Pods Manifest.lock */,
 				38209F1221313F1700E0806D /* Sources */,
 				38209F1321313F1700E0806D /* Frameworks */,
 				38209F1421313F1700E0806D /* Resources */,
+				900A3A372B9635269E9EA9DC /* [CP] Embed Pods Frameworks */,
+				95E6D83229BAE440B6C95C55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +245,94 @@
 			files = (
 				38209F2421313F1700E0806D /* LaunchScreen.storyboard in Resources */,
 				38209F2121313F1700E0806D /* Assets.xcassets in Resources */,
+				38F7A64E213289C10024897B /* Image.storyboard in Resources */,
+				38209F3C2131512200E0806D /* ObservableViewController.storyboard in Resources */,
+				38C011C621325C900061ABE2 /* CoverView.xib in Resources */,
 				38209F1F21313F1700E0806D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C8B8C6CB6CCA9FAAA75C208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-rxswift-operators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		900A3A372B9635269E9EA9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-rxswift-operators/Pods-ios-rxswift-operators-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rxswift-operators/Pods-ios-rxswift-operators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E6D83229BAE440B6C95C55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-rxswift-operators/Pods-ios-rxswift-operators-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38209F1221313F1700E0806D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F7A659213293F60024897B /* ImageModel.swift in Sources */,
+				38F7A650213289CF0024897B /* ImageViewModel.swift in Sources */,
+				38F7A65221328A780024897B /* ImageUsecase.swift in Sources */,
+				38F7A65B2132941A0024897B /* ImageTranslater.swift in Sources */,
 				38209F1C21313F1700E0806D /* ViewController.swift in Sources */,
+				38C011C221318CDB0061ABE2 /* CoverView.swift in Sources */,
+				38209F2C2131402800E0806D /* ObservableViewModel.swift in Sources */,
+				38F7A6632132B37F0024897B /* ImageDataStore.swift in Sources */,
 				38209F1A21313F1700E0806D /* AppDelegate.swift in Sources */,
+				38F7A6612132B2D60024897B /* ApiClient.swift in Sources */,
+				38F7A64C213289B70024897B /* ImageViewController.swift in Sources */,
+				38F7A65421328A840024897B /* ImageRepository.swift in Sources */,
+				38F7A657213293DF0024897B /* ImageEntity.swift in Sources */,
+				38209F3721314D4500E0806D /* ObservableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +467,7 @@
 		};
 		38209F2921313F1700E0806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E74171C822DB3BE4940EDE /* Pods-ios-rxswift-operators.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +482,7 @@
 		};
 		38209F2A21313F1700E0806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BAEA4737178217040056A9 /* Pods-ios-rxswift-operators.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
